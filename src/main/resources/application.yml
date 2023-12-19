@@ -1,4 +1,5 @@
 
+
 springdoc:
   api-docs:
     enabled: true
@@ -7,3 +8,12 @@ springdoc:
     enabled: true
     path: /swagger-ui.html
     #layout: BaseLayout
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster0.vigqsrv.mongodb.net/?retryWrites=true&w=majority
+      database: task
+
+  jpa:
+    show-sql: true
